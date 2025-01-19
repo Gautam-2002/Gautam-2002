@@ -29,9 +29,11 @@ jobs:
           node update-readme.js
 
       - name: Commit and Push changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
           git commit -m 'Update README'
-          git push
+          git push https://Gautam-2002:${{ secrets.GH_TOKEN }}@github.com/Gautam-2002/Gautam-2002.git
