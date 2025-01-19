@@ -1,39 +1,39 @@
-name: Update README
+# name: Update README
 
-on:
-  schedule:
-    - cron: '0 * * * *' # Runs every hour
-  push:
-    branches:
-      - main
+# on:
+#   schedule:
+#     - cron: '0 * * * *' # Runs every hour
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+# jobs:
+#   update-readme:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: '14'
 
-      - name: Install Dependencies
-        run: npm install node-fetch@2
+#       - name: Install Dependencies
+#         run: npm install node-fetch@2
 
-      - name: Update README
-        run: |
-          curl -s https://api.github.com/users/Gautam-2002 | jq '.public_repos' > data.json
-          curl -s https://api.github.com/search/commits?q=author:Gautam-2002 | jq '.total_count' >> data.json
-          node update-readme.js
+#       - name: Update README
+#         run: |
+#           curl -s https://api.github.com/users/Gautam-2002 | jq '.public_repos' > data.json
+#           curl -s https://api.github.com/search/commits?q=author:Gautam-2002 | jq '.total_count' >> data.json
+#           node update-readme.js
 
-      - name: Commit and Push changes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m 'Update README'
-          git push https://Gautam-2002:${{ secrets.GH_TOKEN }}@github.com/Gautam-2002/Gautam-2002.git HEAD:main
+#       - name: Commit and Push changes
+#         env:
+#           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+#         run: |
+#           git config --global user.name 'github-actions[bot]'
+#           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+#           git add README.md
+#           git commit -m 'Update README'
+#           git push https://Gautam-2002:${{ secrets.GH_TOKEN }}@github.com/Gautam-2002/Gautam-2002.git HEAD:main
