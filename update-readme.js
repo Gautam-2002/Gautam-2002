@@ -24,8 +24,8 @@ Currently thriving as a Research Engineer at **LG Soft India**, I specialize in 
 
 ## 📊 GitHub Stats
 
-- Total Commits: ${commitsData.total_count} ![Commit Icon](https://img.icons8.com/emoji/48/000000/check-mark-emoji.png)
-- Public Repositories: ${data.public_repos} ![Repo Icon](https://img.icons8.com/emoji/48/000000/open-book-emoji.png)
+- Total Commits: ${commitsData.total_count} !📈
+- Public Repositories: ${data.public_repos} 📚
 - **Joined GitHub**: ⌚ Since 2021.
 
 ## 🔗 Connect with me
