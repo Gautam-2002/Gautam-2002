@@ -9,19 +9,16 @@ Currently thriving as a Research Engineer at **LG Soft India**, I specialize in 
 - **Versatile Programming**: Proficient in C++, Java, **MERN stack** (HTML, CSS, JavaScript, React, Node.js, Express, MongoDB), and SQL.
 - **Continuous Learning**: Committed to expanding my expertise in problem solving and required technologies.
 
-## 💡 What Drives Me?
-A relentless thirst for learning and innovation propels me to seek challenging opportunities where I can create impactful solutions.
-
 ## 📊 GitHub Stats
 
-<div style="background-color: #1e1e1e; padding: 20px; border-radius: 10px; text-align: center;">
+- **Total Commits**: ![Total Commits](https://img.shields.io/github/commit-activity/m/Gautam-2002?label=Total%20Commits&logo=github&color=green)
+- **Total Public Repositories**: ![Total Repos](https://img.shields.io/github/followers/Gautam-2002?label=Total%20Repos&logo=github&color=blue)
+- **Joined GitHub**: ⌚ Since 2021.
+## 🔗 Connect with me
+- [LinkedIn Profile](http://www.linkedin.com/in/gautam2sethi) 🌐
 
-![Profile Summary Card](https://raw.githubusercontent.com/Gautam-2002/Gautam-2002/main/profile-summary-card-output/tokyonight/0-profile-details.svg)
-
-</div>
-
-
-
+## 💡 What Drives Me?
+A relentless thirst for learning and innovation propels me to seek challenging opportunities where I can create impactful solutions.
 
 <!--
 **Gautam-2002/Gautam-2002** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
