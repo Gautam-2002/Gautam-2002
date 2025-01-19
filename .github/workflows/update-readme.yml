@@ -14,10 +14,20 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install Dependencies
+        run: npm install node-fetch@2
+
       - name: Update README
         run: |
-          curl -s https://api.github.com/users/Gautam-2002 | jq '.public_repos, .public_gists, .followers, .following' > data.json
+          curl -s https://api.github.com/users/Gautam-2002 | jq '.public_repos' > data.json
+          curl -s https://api.github.com/search/commits?q=author:Gautam-2002 | jq '.total_count' >> data.json
           node update-readme.js
+
       - name: Commit and Push changes
         run: |
           git config --global user.name 'github-actions[bot]'
