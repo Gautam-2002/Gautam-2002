@@ -1,4 +1,4 @@
-# 🌟 Hi, I'm Gautam Sethi, Welcome to my Github page! 🌟
+# 🌟 Hi, I'm Gautam, Welcome to my Github page! 🌟
 
 **Research Engineer | C++ Developer | Full-Stack Developer**
 
@@ -14,12 +14,12 @@ A relentless thirst for learning and innovation propels me to seek challenging o
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Gautam-2002&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=dark)
+<div style="background-color: #1e1e1e; padding: 20px; border-radius: 10px; text-align: center;">
 
-- **Total Commits:** ![Total Commits](https://badgen.net/github/commits/Gautam-2002)
-- **Public Repos:** ![Public Repos](https://badgen.net/github/repos/Gautam-2002)
-- **Joined GitHub:** ![Joined Date](https://badgen.net/github/joined/Gautam-2002)
-- **LinkedIn:** [Visit My LinkedIn](https://www.linkedin.com/in/gautam2sethi)
+![Profile Summary Card](https://raw.githubusercontent.com/Gautam-2002/Gautam-2002/main/profile-summary-card-output/tokyonight/0-profile-details.svg)
+
+</div>
+
 
 
 
