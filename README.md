@@ -14,7 +14,7 @@ A relentless thirst for learning and innovation propels me to seek challenging o
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=dark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Gautam-2002&show_icons=true&hide_title=true&hide=prs&count_private=true&theme=dark)
 
 - **Total Commits:** ![Total Commits](https://badgen.net/github/commits/Gautam-2002)
 - **Public Repos:** ![Public Repos](https://badgen.net/github/repos/Gautam-2002)
