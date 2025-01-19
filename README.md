@@ -11,9 +11,10 @@ Currently thriving as a Research Engineer at **LG Soft India**, I specialize in 
 
 ## 📊 GitHub Stats
 
-- **Total Commits**: ![Total Commits](https://img.shields.io/github/commit-activity/m/Gautam-2002?label=Total%20Commits&logo=github&color=green)
-- **Total Public Repositories**: ![Total Repos](https://img.shields.io/github/followers/Gautam-2002?label=Total%20Repos&logo=github&color=blue)
+- Total Commits: <!-- COMMIT_COUNT --> ![Commit Icon](https://img.icons8.com/emoji/48/000000/check-mark-emoji.png)
+- Public Repositories: <!-- REPO_COUNT --> ![Repo Icon](https://img.icons8.com/emoji/48/000000/open-book-emoji.png)
 - **Joined GitHub**: ⌚ Since 2021.
+
 ## 🔗 Connect with me
 - [LinkedIn Profile](http://www.linkedin.com/in/gautam2sethi) 🌐
 
