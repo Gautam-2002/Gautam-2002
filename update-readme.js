@@ -39,4 +39,4 @@ A relentless thirst for learning and innovation propels me to seek challenging o
   fs.writeFileSync('README.md', readmeContent);
 }
 
-main();
+// main();
